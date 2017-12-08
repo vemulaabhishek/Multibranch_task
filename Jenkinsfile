@@ -1,5 +1,3 @@
-properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/vemulaabhishek/Multibranch_task.git'],
-            pipelineTriggers([githubPush()])])
 pipeline {
     agent any
         stages {
